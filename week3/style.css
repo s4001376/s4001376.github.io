@@ -1,0 +1,23 @@
+* {
+    color: black;
+}
+h1 {
+    color: darkblue;
+}
+
+p,
+h3 {
+    color: rgb(8, 40, 216);
+}
+
+.my-class {
+    color: indigo;
+}
+
+#my-heading {
+    color: red;
+}
+
+p > strong {
+    color: black;
+}
