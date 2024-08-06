@@ -2,16 +2,36 @@
     color: black;
 }
 h1 {
-    color: darkblue;
+      font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px
 }
 
 p,
 h3 {
     color: rgb(8, 40, 216);
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    border: 3px dotted blue;
+    padding: 2cqb;
+    text-align: center;
 }
 
 .my-class {
     color: indigo;
+    text-align: center;
 }
 
 #my-heading {
@@ -19,5 +39,14 @@ h3 {
 }
 
 p > strong {
-    color: black;
+    color: rgb(8, 40, 216);
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+span {
+  font-size: 16px;  
 }
