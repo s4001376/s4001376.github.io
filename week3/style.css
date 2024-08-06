@@ -1,5 +1,6 @@
 * {
     color: black;
+    background-color: rgb(234, 230, 224);
 }
 h1 {
       font-family: "Permanent Marker", cursive;
@@ -27,6 +28,7 @@ p {
     border: 3px dotted blue;
     padding: 2cqb;
     text-align: center;
+    margin: 0 auto;
 }
 
 .my-class {
