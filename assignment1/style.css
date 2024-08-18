@@ -1,3 +1,179 @@
+/* For this webpage, I decided to use the same colour palatte as 'Downstream' and also try get a similar font used in that webpage for the heading of my webpage - thinking it would be appropriate to match the vibes.*/
 * {
-    color: black;
+    color: #df7c2c;
+    font-family:"Roboto", sans-serif;
 }
+body {
+    background-color: #E4E1EB;
+}
+
+/* The universal font colour and the background colour are the same as the ones used in 'Downstream' by using the colour drop extension 'ColorZilla'. This is a great colour combonation as its really easy to look at and simple.*/
+
+h1 {
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #2C2835;
+}
+
+h2 {
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2C2835;
+}
+
+h3 {
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Recursive", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* The font used is similar, if not the same, as 'Downstream' which I found on Google Fonts.  */
+/*  */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2rem;
+    min-height: 2rem;
+    min-width: 500px;
+    gap: 1rem;
+}
+
+/* for the boders I wanted to recreate the 'control panel' theme by making the border edges round for a smoother look. */
+
+.box {
+    display: inline-block;
+    padding: 15px;
+    background-color: #2C2835;
+    border: 4px solid #A8A2B5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.boxmid1 {
+    background-color: #2C2835;
+    border: 4px solid #A8A2B5;
+    border-radius: 5px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    padding: 15px;
+    max-height: 375px;
+    box-sizing: content-box
+}
+
+.boxmid2 {
+    background-color: #2C2835;
+    border: 4px solid #A8A2B5;
+    border-radius: 5px;
+    grid-row: 1/4;
+    padding: 15px;
+    max-height: 460px;  
+    box-sizing: content-box;
+}
+
+li {
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* fonts codes from Google Fonts*/
+
+.recursive {
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
