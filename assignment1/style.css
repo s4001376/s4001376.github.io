@@ -7,7 +7,7 @@ body {
     background-color: #E4E1EB;
 }
 
-/* The universal font colour and the background colour are the same as the ones used in 'Downstream' by using the colour drop extension 'ColorZilla'. This is a great colour combonation as its really easy to look at and simple.*/
+/* The universal font colour and the background colour are the same as the ones used in 'Downstream' by using the colour drop extension 'ColorZilla'. This is a great colour combonation as its really easy to look at and simple. Also, because I have minimal knowledge about designing websites, I really wanted to make this webpage as simple and easy to understand as possible.*/
 
 h1 {
     font-family: "Recursive", sans-serif;
@@ -57,8 +57,8 @@ h4 {
     gap: 1rem;
 }
 
-/* for the boders I wanted to recreate the 'control panel' theme by making the border edges round for a smoother look. */
-
+/* For the boders I wanted to recreate the 'control panel' theme by making the border edges round for a smoother look. */
+/* The dark background and orange text were chosen as it not only makes the text more visible, but it was also inspired by Downstream where when the users floats their mouse on top of an interactive button, the style would change from orange background and dark text to dark background and white text - supporting the on-going familair aesthetic i've been trying to implement based off Downstream.*/
 .box {
     display: inline-block;
     padding: 15px;
@@ -71,6 +71,7 @@ h4 {
     box-sizing: border-box;
 }
 
+/* Though this may not be the most efficient/correct way to do this, I had to create seperate boxes for the first row as the list of answers made all the boxes too big and messy - really hard to explain - so I was able to experiment with the boxes and differnt display modes and ended up chosing this path.*/
 .boxmid1 {
     background-color: #2C2835;
     border: 4px solid #A8A2B5;
@@ -81,6 +82,8 @@ h4 {
     max-height: 600px;
     box-sizing: content-box
 }
+
+/* I accidentally found the 'border radius' code by looking through the different options it listed out when I typed 'border'. */
 
 .boxmid2 {
     background-color: #2C2835;
