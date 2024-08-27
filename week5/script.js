@@ -32,3 +32,21 @@ console.log("am I a science student?", myStudentRecord.isItScience);
 
 const numberArray = [2, 4, 6, 8, 10];
 console.log(numberArray [2]);
+
+if (myStudentRecord.isItScience) {
+    console.log("Sorry you are in the wrong class");
+} else {
+    console.log("Welcome to 0ART1013");
+}
+
+let myScore = 90;
+if(myScore>=90) {
+    console.log("You scored a HD");
+} else if (myScore <90 && myScore >=70) {
+    console.log("you scored a D");
+} else if (myScore <70 && myScore >=50) {
+    console.log("you scored a C");
+} else {
+    console.log("you scored a P");
+}
+
