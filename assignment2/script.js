@@ -31,7 +31,7 @@ const volumeDownBtn = document.querySelector("#volume-down-btn");
 console.log(volumeDownBtn);
 
 function updateVolume() {
-  const volume = myVideo.volume;
+  const volume = audio.volume;
   console.log("Volume changed:", volume);
 }
 
@@ -87,3 +87,17 @@ for(let i = 0; i < STAR_COUNT; i++){
   result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(2, 3)}px ${randomNumber(2, 3)}px #fff,`
 }
 console.log(result.substring(0, result.length - 1))
+
+const stars = document.querySelector(".stars");
+console.log(stars);
+
+// TIME DISPLAY SCRIPTING
+const displayTime = document.querySelector(".display-time");
+// Time
+function showTime() {
+  let time = new Date();
+  displayTime.innerText = time.toLocaleTimeString("en-US", { hour12: false });
+  setTimeout(showTime, 1000);
+}
+
+showTime();
