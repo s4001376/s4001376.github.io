@@ -1,0 +1,112 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+    background-color: #1a120b;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #e5e5cb;
+    /* color: #3c2a21; */
+    font-size: 1.1rem;
+    gap: 1.5rem;
+  }
+  
+  .outer {
+    border: 2px dashed #e5e5cb7a;
+    width: 400px;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    opacity: 1;
+    /* background-color: cornsilk; */
+    transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    /* border-width: 0; */
+    /* background-color: aliceblue; */
+    color: rgb(209, 227, 255);
+    background-color: transparent;
+    /* border-color: aquamarine; */
+    cursor: pointer;
+    transition: border-color 0.7s linear scale 0.7s linear;
+    /* transition: background-color 0.3s ease scale 0.3s ease; */
+  }
+
+  button:hover {
+    /* background-color: rgb(141, 147, 151); */
+    border-color: rgb(85, 173, 144);
+    scale: 0.9;
+  }
+
+  #box {
+    min-width: 100px;
+    min-height: 100px;
+    /* background-color: purple; */
+    background-color: rgb(26, 21, 45);
+    border: 5px dashed purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    animation-name: border-wheel;
+    animation-duration: 5s;
+    animation-iteration-count: 100;
+    animation-timing-function: linear;
+  }
+
+  @keyframes border-wheel {
+    0% {
+      border-color: red;
+      rotate: 0;
+    }
+    20% {
+      border-color: orange;
+      
+    }
+    40% {
+      border-color: yellow;
+    }
+    60% {
+      border-color: green;
+    }
+    80% {
+      border-color: blue;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+
+  .spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid orange;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spinner 1s linear infinite;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
