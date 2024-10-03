@@ -1,5 +1,14 @@
 const audio = document.querySelector("#custom-audio-player");
 console.log(audio);
+const audioName = document.querySelector("#audio-name");
+console.log(audioName);
+
+const audioList = [
+  { name: "Ambient Wave - Digital Ocean Spaces", link: "music.mp3" },
+  { name: "Zen Meditation - Darren Lucas from Pixabay", link: "zen.mp3" },
+];
+
+let loop = true;
 
 // PLAY PAUSE SCRIPING ----
 
@@ -56,11 +65,40 @@ function decreaseVolume() {
 
 // BACKWARD/FORWARD SCRIPTING ----
 
-const backwardBtn = document.querySelector("#backward-btn");
-console.log(backwardBtn);
+const prevBtn = document.querySelector("#prev-btn");
+console.log(prevBtn);
+prevBtn.addEventListener("click", prevTrack);
 
-const forwardBtn = document.querySelector("#forward-btn");
-console.log(forwardBtn);
+let currentIndex = 0;
+
+function prevTrack() {
+  console.log("previous track loading");
+  currentIndex = (currentIndex - 1 + audioList.length) % audioList.length;
+  console.log(currentIndex);
+  playAudioAtIndex(currentIndex);
+}
+
+const nextBtn = document.querySelector("#next-btn");
+console.log(nextBtn);
+nextBtn.addEventListener("click", nextTrack);
+
+function nextTrack() {
+  console.log("next track loading");
+  currentIndex = (currentIndex + 1) % audioList.length;
+  console.log(currentIndex);
+  playAudioAtIndex(currentIndex);
+}
+
+// Function to play video at a specific index
+function playAudioAtIndex(index) {
+  audio.pause();
+  console.log(audioList[index].link);
+  audio.src = audioList[index].link;
+  audio.load(); // Load the new source
+  audio.play(); // Play the video]
+
+  audioName.textContent = audioList[index].name;
+}
 
 // PROGRESS BAR SCRIPTING ----
 
