@@ -15,9 +15,17 @@
 
   h1 {
     font-size: 3rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: bold;
   }
 
   h2 {
+    font-size: 2rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: bold;
+  }
+
+  h3 {
     font-size: 2rem;
     font-weight: bold;
   }
@@ -25,7 +33,7 @@
   body {
     font-family: "Arial", sans-serif;
     color: var(--text-color);
-    line-height: 1.6;
+    /* line-height: 1.6; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,21 +43,20 @@
     min-height: 100vh;
   }
   
-  /* Add additional styles as needed */
   
-  /* Create a container for the main content */
+  /* MAIN CONTENT CONTAINER */
   .container {
     max-width: 1000px;
     width: 100%;
-    padding: 10px;
-    height: 100vh;
+    padding: 5px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
   }
 
-  /* background animation settings */
+  /* BACKGROUND ANIMATION STYLING */
   .stars {
     z-index: -10;
     position: fixed;
@@ -59,8 +66,10 @@
     width: 1px;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 11vw 46vh 2px 2px #fff,0vw 24vh 3px 3px #fff,-31vw -6vh 2px 3px #fff,13vw 2vh 3px 2px #fff,17vw -30vh 2px 2px #fff,12vw -39vh 2px 2px #fff,37vw 13vh 2px 2px #fff,-13vw -17vh 2px 3px #fff,-20vw 17vh 2px 3px #fff,7vw 30vh 3px 2px #fff,49vw 33vh 2px 2px #fff,36vw 40vh 2px 2px #fff,-11vw 49vh 3px 3px #fff,31vw -24vh 3px 2px #fff,16vw 28vh 2px 2px #fff,-9vw 42vh 3px 3px #fff,50vw 40vh 3px 2px #fff,-13vw -17vh 3px 3px #fff,1vw 6vh 3px 2px #fff,-14vw -2vh 3px 3px #fff,-6vw 1vh 2px 2px #fff,-16vw 12vh 3px 2px #fff,-39vw 13vh 2px 3px #fff,-50vw -27vh 2px 2px #fff,6vw 40vh 2px 3px #fff,7vw -9vh 3px 2px #fff,-46vw -48vh 2px 3px #fff,-4vw 44vh 3px 3px #fff,-18vw 32vh 2px 2px #fff,-36vw -21vh 2px 2px #fff,-20vw -2vh 3px 3px #fff,28vw -8vh 2px 2px #fff,10vw 37vh 3px 3px #fff,-6vw 33vh 2px 3px #fff,31vw 12vh 3px 2px #fff,-37vw -20vh 2px 3px #fff,21vw -40vh 2px 2px #fff,-10vw -26vh 3px 2px #fff,-47vw 44vh 3px 2px #fff,23vw -50vh 2px 3px #fff,11vw -36vh 2px 2px #fff,-11vw -27vh 3px 2px #fff,-23vw -23vh 2px 2px #fff,6vw -28vh 2px 3px #fff,-44vw 23vh 2px 2px #fff,-48vw 15vh 3px 2px #fff,43vw 32vh 3px 2px #fff,20vw -26vh 2px 2px #fff,-8vw -3vh 3px 2px #fff,17vw 43vh 2px 3px #fff,27vw -3vh 3px 3px #fff,27vw -49vh 3px 3px #fff,41vw 33vh 2px 2px #fff,-28vw 4vh 3px 2px #fff,44vw 50vh 3px 3px #fff,1vw -50vh 3px 3px #fff,23vw -45vh 3px 2px #fff,-48vw 22vh 3px 3px #fff,-1vw -17vh 3px 3px #fff,10vw -14vh 2px 3px #fff,28vw 44vh 2px 2px #fff,27vw 39vh 3px 2px #fff,44vw 11vh 3px 2px #fff,-12vw -46vh 2px 2px #fff,-29vw -2vh 3px 2px #fff,-7vw 27vh 2px 3px #fff,-47vw -43vh 2px 3px #fff,11vw 26vh 2px 3px #fff,43vw -28vh 3px 2px #fff,27vw -33vh 3px 2px #fff,-32vw 28vh 3px 2px #fff,28vw -19vh 2px 3px #fff,-36vw 21vh 2px 3px #fff,-12vw -1vh 2px 3px #fff,-1vw 12vh 3px 3px #fff,-25vw -8vh 3px 2px #fff,29vw 34vh 3px 2px #fff,17vw 19vh 2px 3px #fff,-4vw 11vh 2px 3px #fff,4vw 29vh 2px 2px #fff,36vw 37vh 3px 3px #fff,-49vw -26vh 3px 2px #fff,38vw 42vh 2px 2px #fff,39vw 30vh 3px 3px #fff,-46vw -13vh 3px 2px #fff,-50vw 33vh 2px 2px #fff,-50vw -4vh 2px 2px #fff,46vw -4vh 3px 3px #fff,27vw 12vh 3px 3px #fff,-32vw 9vh 3px 3px #fff,32vw -19vh 2px 3px #fff,-7vw -17vh 2px 2px #fff,23vw 37vh 3px 3px #fff,14vw 22vh 3px 3px #fff,40vw -50vh 2px 2px #fff,35vw 46vh 2px 2px #fff,-24vw 33vh 3px 2px #fff,7vw 1vh 3px 2px #fff,49vw -50vh 2px 3px #fff,2vw 34vh 3px 3px #fff,50vw -26vh 2px 3px #fff,48vw 29vh 3px 2px #fff,32vw -43vh 2px 3px #fff,27vw -27vh 3px 3px #fff,25vw -4vh 3px 2px #fff,-9vw -49vh 3px 2px #fff,6vw -6vh 2px 2px #fff,32vw -44vh 2px 2px #fff,-23vw -7vh 3px 2px #fff,29vw 45vh 2px 3px #fff,-14vw -48vh 3px 3px #fff,14vw 4vh 3px 2px #fff,-14vw -41vh 2px 2px #fff,-29vw -46vh 2px 3px #fff,22vw 19vh 2px 2px #fff,-37vw 44vh 2px 3px #fff,-46vw 29vh 2px 2px #fff,-4vw 27vh 2px 3px #fff,-45vw 25vh 3px 3px #fff,10vw 31vh 3px 3px #fff,-34vw -31vh 2px 3px #fff,36vw -23vh 2px 2px #fff,40vw 29vh 3px 2px #fff,-27vw -41vh 3px 3px #fff,-3vw 34vh 3px 3px #fff,-50vw -42vh 2px 2px #fff,24vw 10vh 2px 2px #fff,-37vw -19vh 2px 2px #fff,9vw 16vh 2px 3px #fff,-23vw -42vh 3px 3px #fff,-33vw 36vh 3px 2px #fff,-30vw 27vh 2px 2px #fff,16vw 20vh 3px 2px #fff,43vw -23vh 2px 3px #fff,-8vw 34vh 3px 2px #fff,-50vw -10vh 3px 3px #fff,-1vw -42vh 2px 2px #fff,26vw 24vh 3px 2px #fff,44vw -39vh 3px 2px #fff,-21vw -36vh 3px 2px #fff,45vw 50vh 2px 2px #fff,26vw 29vh 3px 3px #fff,35vw -12vh 3px 2px #fff,-31vw -43vh 3px 3px #fff,-6vw 16vh 2px 2px #fff,11vw -1vh 2px 3px #fff,16vw -26vh 3px 3px #fff,-1vw -19vh 2px 3px #fff,-37vw -37vh 2px 3px #fff,24vw 20vh 2px 2px #fff,46vw -19vh 2px 3px #fff,30vw -18vh 3px 3px #fff,43vw 21vh 2px 3px #fff,-30vw -28vh 3px 2px #fff,-26vw -27vh 3px 3px #fff,-31vw -29vh 3px 3px #fff,14vw -2vh 2px 3px #fff,-17vw 23vh 2px 2px #fff,-2vw 35vh 3px 2px #fff,-8vw 11vh 2px 3px #fff,-45vw 29vh 3px 2px #fff,-32vw -41vh 2px 3px #fff,16vw 22vh 3px 2px #fff,38vw -20vh 2px 2px #fff,15vw 23vh 2px 3px #fff,-40vw -18vh 2px 2px #fff,4vw 0vh 3px 3px #fff,13vw 30vh 2px 3px #fff,-39vw -22vh 3px 3px #fff,45vw -6vh 2px 2px #fff,13vw 18vh 3px 3px #fff,-37vw 26vh 2px 3px #fff,48vw -18vh 2px 3px #fff,-31vw -33vh 2px 2px #fff,16vw -49vh 2px 2px #fff,9vw -40vh 2px 2px #fff,21vw 50vh 2px 3px #fff,-47vw 31vh 2px 3px #fff,-48vw -41vh 3px 2px #fff,-8vw 12vh 2px 3px #fff,-48vw -47vh 3px 2px #fff,-14vw -31vh 2px 3px #fff,-16vw 42vh 3px 2px #fff,26vw -32vh 2px 3px #fff,0vw -31vh 2px 2px #fff,-18vw 25vh 3px 2px #fff,-28vw -30vh 3px 3px #fff,2vw -47vh 2px 2px #fff,37vw 43vh 2px 2px #fff,33vw -12vh 2px 2px #fff,-21vw 10vh 2px 2px #fff,-5vw 13vh 2px 2px #fff,46vw -8vh 2px 3px #fff,13vw 3vh 3px 2px #fff,1vw 40vh 2px 3px #fff,16vw 4vh 2px 3px #fff,-21vw 32vh 3px 3px #fff,-35vw -37vh 2px 3px #fff,34vw -5vh 3px 3px #fff,16vw -14vh 2px 2px #fff;  
-    /* stars coordinates and settings from javascript */
+  box-shadow: -19vw -28vh 2px 2px #fff,-56vw 73vh 1px 2px #fff,69vw -100vh 2px 1px #fff,-31vw 56vh 1px 2px #fff,-19vw 62vh 1px 1px #fff,10vw -65vh 1px 2px #fff,19vw -95vh 1px 1px #fff,40vw 32vh 1px 2px #fff,15vw -16vh 2px 1px #fff,-28vw -23vh 1px 2px #fff,-91vw -92vh 2px 1px #fff,-56vw -46vh 1px 1px #fff,-62vw 18vh 1px 2px #fff,-87vw 5vh 2px 2px #fff,-73vw 69vh 1px 1px #fff,79vw 49vh 1px 1px #fff,66vw -12vh 2px 1px #fff,-16vw 57vh 1px 2px #fff,-88vw 70vh 2px 2px #fff,20vw -39vh 1px 1px #fff,13vw 75vh 1px 2px #fff,2vw 26vh 2px 2px #fff,55vw -30vh 2px 1px #fff,49vw -26vh 1px 1px #fff,30vw -62vh 1px 2px #fff,-16vw -74vh 2px 2px #fff,68vw -23vh 1px 1px #fff,67vw 16vh 2px 2px #fff,94vw -87vh 1px 2px #fff,99vw 19vh 1px 1px #fff,-15vw -73vh 1px 1px #fff,62vw -52vh 2px 1px #fff,59vw -87vh 2px 1px #fff,98vw -1vh 1px 2px #fff,94vw -3vh 1px 2px #fff,80vw 89vh 2px 1px #fff,32vw 81vh 1px 2px #fff,-3vw 67vh 2px 2px #fff,100vw -52vh 2px 2px #fff,-82vw 69vh 2px 1px #fff,35vw -41vh 2px 2px #fff,11vw -25vh 1px 1px #fff,74vw -74vh 2px 1px #fff,-100vw -64vh 2px 1px #fff,18vw -37vh 2px 2px #fff,1vw -35vh 2px 1px #fff,-12vw 80vh 2px 1px #fff,-31vw -59vh 1px 1px #fff,-38vw 56vh 1px 1px #fff,-35vw 5vh 2px 2px #fff,-64vw 11vh 1px 2px #fff,-37vw -6vh 1px 1px #fff,-52vw 96vh 2px 2px #fff,48vw -86vh 2px 1px #fff,23vw -72vh 1px 2px #fff,27vw 68vh 2px 2px #fff,-67vw -64vh 2px 2px #fff,38vw 7vh 1px 2px #fff,43vw 70vh 1px 1px #fff,57vw 58vh 2px 2px #fff,47vw 44vh 2px 2px #fff,-69vw -76vh 2px 2px #fff,-34vw 17vh 2px 1px #fff,-98vw 19vh 1px 1px #fff,27vw -12vh 1px 2px #fff,30vw -67vh 1px 1px #fff,36vw 90vh 2px 1px #fff,-100vw 0vh 1px 2px #fff,67vw 63vh 2px 1px #fff,20vw 26vh 2px 1px #fff,94vw -13vh 2px 2px #fff,81vw -65vh 1px 2px #fff,-65vw 19vh 2px 2px #fff,47vw 58vh 1px 1px #fff,-60vw 15vh 2px 2px #fff,-55vw -30vh 1px 1px #fff,-67vw 77vh 1px 1px #fff,89vw -57vh 1px 2px #fff,34vw 78vh 2px 2px #fff,-18vw 5vh 1px 1px #fff,63vw -8vh 1px 1px #fff,-42vw 4vh 2px 2px #fff,27vw -85vh 2px 2px #fff,-91vw 24vh 1px 1px #fff,33vw -47vh 1px 1px #fff,9vw 47vh 2px 2px #fff,-88vw -45vh 1px 1px #fff,53vw -36vh 2px 2px #fff,-100vw -23vh 1px 1px #fff,21vw -96vh 1px 2px #fff,44vw 12vh 1px 2px #fff,88vw -14vh 1px 1px #fff,-25vw 71vh 1px 2px #fff,-87vw 34vh 2px 1px #fff,86vw -6vh 2px 1px #fff,-58vw 84vh 1px 1px #fff,-83vw 3vh 1px 2px #fff,16vw 17vh 2px 2px #fff,55vw -31vh 2px 2px #fff,-74vw 26vh 2px 1px #fff,-86vw -17vh 2px 1px #fff,41vw 53vh 2px 1px #fff,-49vw -79vh 1px 2px #fff,98vw -66vh 1px 1px #fff,94vw -9vh 2px 1px #fff,-37vw 44vh 2px 1px #fff,43vw 50vh 1px 1px #fff,-37vw -52vh 2px 2px #fff,-75vw 81vh 1px 1px #fff,9vw 90vh 1px 2px #fff,63vw -58vh 2px 2px #fff,76vw -67vh 1px 1px #fff,-57vw -49vh 1px 1px #fff,66vw 10vh 1px 1px #fff,67vw 36vh 1px 2px #fff,-45vw -97vh 1px 1px #fff,10vw 80vh 1px 2px #fff,-53vw -15vh 2px 2px #fff,-21vw 2vh 2px 1px #fff,-76vw 23vh 2px 1px #fff,96vw 11vh 1px 2px #fff,51vw -54vh 2px 2px #fff,-12vw 28vh 2px 2px #fff,-78vw 20vh 1px 2px #fff,16vw -89vh 2px 1px #fff,19vw 20vh 1px 1px #fff,-5vw 52vh 2px 2px #fff,88vw 42vh 2px 1px #fff,34vw 32vh 2px 2px #fff,-69vw 57vh 2px 1px #fff,74vw -66vh 1px 1px #fff,-78vw -58vh 1px 1px #fff,61vw 84vh 2px 2px #fff,-14vw 53vh 1px 2px #fff,73vw -42vh 2px 1px #fff,-79vw -62vh 1px 1px #fff,-10vw 96vh 2px 1px #fff,49vw -14vh 2px 1px #fff,-57vw 94vh 2px 2px #fff,-7vw 42vh 1px 1px #fff,-88vw 79vh 1px 1px #fff,-95vw -92vh 1px 1px #fff,97vw -52vh 1px 1px #fff,-57vw 7vh 1px 1px #fff,-22vw 66vh 1px 1px #fff,-63vw 99vh 2px 2px #fff,26vw 2vh 2px 1px #fff,-90vw -66vh 1px 1px #fff,7vw -60vh 1px 2px #fff,-90vw 64vh 1px 1px #fff,-7vw 42vh 1px 1px #fff,-73vw 56vh 2px 2px #fff,-20vw 25vh 2px 2px #fff,72vw -28vh 1px 2px #fff,-17vw -21vh 2px 2px #fff,70vw -8vh 1px 1px #fff,-38vw 0vh 1px 1px #fff,58vw -28vh 1px 1px #fff,-64vw 83vh 2px 1px #fff,-5vw 3vh 1px 2px #fff,87vw 50vh 1px 1px #fff,-26vw -60vh 2px 1px #fff,16vw -41vh 2px 2px #fff,-56vw 64vh 1px 2px #fff,29vw -57vh 1px 1px #fff,32vw -10vh 2px 2px #fff,-27vw 32vh 2px 2px #fff,-18vw -22vh 2px 2px #fff,83vw -53vh 2px 1px #fff,99vw 29vh 1px 1px #fff,-4vw 27vh 2px 2px #fff,-64vw 94vh 1px 1px #fff,-54vw -83vh 1px 1px #fff,-15vw -2vh 1px 1px #fff,52vw 54vh 1px 1px #fff,57vw -3vh 1px 2px #fff,49vw 50vh 1px 2px #fff,52vw 46vh 1px 1px #fff,-10vw -27vh 1px 2px #fff,-69vw 92vh 2px 1px #fff,-79vw -88vh 2px 1px #fff,0vw -14vh 1px 2px #fff,-14vw 0vh 2px 2px #fff,79vw 33vh 1px 2px #fff,-32vw -48vh 1px 1px #fff,0vw 36vh 1px 1px #fff,-17vw -63vh 2px 2px #fff,-4vw 52vh 2px 1px #fff,-8vw -57vh 1px 2px #fff,33vw -54vh 2px 1px #fff,93vw -97vh 2px 1px #fff,30vw -100vh 2px 2px #fff,-71vw 55vh 1px 1px #fff,-43vw -88vh 1px 1px #fff,-53vw -61vh 1px 1px #fff,82vw -22vh 1px 2px #fff,59vw 92vh 1px 1px #fff,54vw -1vh 1px 2px #fff,12vw -59vh 2px 2px #fff,-45vw -3vh 1px 2px #fff,-26vw -12vh 1px 2px #fff,-61vw 79vh 1px 2px #fff,-8vw 40vh 2px 2px #fff,19vw -20vh 2px 2px #fff,-16vw 77vh 1px 1px #fff,41vw 93vh 1px 2px #fff,61vw -7vh 2px 2px #fff,-11vw 27vh 1px 2px #fff,27vw 21vh 1px 1px #fff,-100vw -8vh 1px 2px #fff,13vw 80vh 2px 1px #fff,-97vw -74vh 1px 1px #fff,11vw 23vh 2px 2px #fff,15vw -84vh 2px 1px #fff,41vw 13vh 1px 1px #fff,5vw -72vh 1px 2px #fff,-1vw 61vh 2px 1px #fff,99vw 13vh 2px 2px #fff,63vw -69vh 1px 1px #fff,85vw 23vh 1px 2px #fff,11vw -50vh 1px 2px #fff,-81vw 73vh 2px 1px #fff,2vw 81vh 1px 2px #fff,-41vw 55vh 2px 2px #fff,96vw 73vh 1px 2px #fff,90vw -44vh 2px 1px #fff,85vw 23vh 2px 1px #fff,75vw -94vh 2px 1px #fff,-18vw -62vh 1px 1px #fff,15vw 12vh 1px 1px #fff,73vw -50vh 2px 1px #fff,-72vw 43vh 1px 1px #fff,-93vw -76vh 1px 1px #fff,99vw 46vh 1px 2px #fff,-1vw 40vh 2px 1px #fff,-72vw 32vh 1px 1px #fff,82vw 3vh 2px 1px #fff,95vw -87vh 1px 2px #fff,-36vw -25vh 2px 2px #fff,27vw -53vh 2px 2px #fff,-77vw 69vh 1px 1px #fff,-82vw -22vh 1px 2px #fff,54vw -15vh 1px 1px #fff,-22vw 30vh 2px 1px #fff,-30vw 19vh 2px 1px #fff,99vw -33vh 2px 2px #fff,-60vw 74vh 2px 1px #fff,-72vw -76vh 1px 2px #fff,99vw 8vh 1px 2px #fff,-39vw -40vh 2px 1px #fff,-98vw 78vh 1px 2px #fff,-54vw -12vh 2px 2px #fff,94vw -28vh 2px 2px #fff,35vw -58vh 2px 2px #fff,9vw -21vh 1px 2px #fff,-1vw 15vh 2px 2px #fff,86vw -94vh 1px 1px #fff,59vw 2vh 1px 2px #fff,-8vw 9vh 1px 2px #fff,-58vw -4vh 1px 2px #fff,10vw 48vh 2px 2px #fff,-84vw -58vh 2px 2px #fff,-34vw -98vh 1px 2px #fff,15vw -5vh 2px 1px #fff,-51vw 54vh 1px 1px #fff,-10vw 20vh 1px 1px #fff,-67vw -38vh 2px 2px #fff,-53vw -14vh 2px 2px #fff,-79vw -74vh 2px 2px #fff,68vw 22vh 1px 1px #fff,49vw 43vh 1px 2px #fff,1vw -58vh 1px 1px #fff,3vw -1vh 1px 1px #fff,50vw 71vh 2px 2px #fff,-34vw -20vh 1px 2px #fff,-75vw 80vh 2px 2px #fff,-39vw 88vh 2px 2px #fff,-50vw 45vh 1px 1px #fff,36vw 99vh 1px 2px #fff,93vw 32vh 2px 1px #fff,44vw -73vh 1px 1px #fff,-58vw 47vh 2px 1px #fff,65vw -82vh 2px 2px #fff,-82vw -35vh 1px 1px #fff,-98vw -29vh 1px 1px #fff,-13vw 72vh 2px 1px #fff,-93vw 70vh 1px 1px #fff,-28vw -18vh 2px 1px #fff,97vw -51vh 1px 1px #fff,20vw -27vh 2px 1px #fff,60vw 78vh 2px 2px #fff,24vw 8vh 1px 2px #fff,42vw -55vh 1px 1px #fff,34vw 35vh 1px 1px #fff,-67vw -19vh 2px 2px #fff,-54vw 38vh 2px 2px #fff,28vw 67vh 2px 1px #fff,9vw 98vh 1px 2px #fff,12vw 32vh 1px 2px #fff,-41vw 62vh 2px 1px #fff;
+  
+  /* stars coordinates and settings from the script in script.js where it randomises position and scale of stars found in the console when html is inspected */
+
     animation: star-wheel 200s linear infinite;
     /* animation-name: star-wheel; */
     /* animation-duration: 60s; */
@@ -79,11 +88,32 @@
   
   /* HEADER STYLING */
   header {
-    /* background-color: var(--main-bg-color); */
     color: var(--main-text-color);
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
     width: 100%;
+    animation: gravity 20s linear infinite ease-in-out;
+  }
+
+  @keyframes gravity {
+    0% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(10px)
+    }
+    40% {
+      transform: translateY(0)
+    }
+    60% {
+      transform: translateY(10px)
+    }
+    80% {
+      transform: translateY(0)
+    }
+    100% {
+      transform: translateY(10px)
+    }
   }
 
   /* TIME DISPLAY STYLING */
@@ -92,11 +122,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1px;
+    padding-bottom: 30px;
   }
   
   .display-time {
     display: flex;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     transition: ease-in-out 0.1s;
   }
@@ -118,6 +150,7 @@
     width: 300px;
     height: 300px;
     color:#1a120b;
+    background-color: #F0F0F0;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -136,8 +169,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .bottom-control {
@@ -146,68 +179,29 @@
     align-items: center;
   }
 
-  /* .ipod-shuffle-circle { */
-    /* position: relative; */
-    /* width: 250px; */
-    /* height: 250px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* gap: px; */
-    /* flex-direction: column; */
-  /* } */
-  /* .quarter { */
-    /* position: absolute; */
-    /* width: 50%; */
-    /* height: 50%; */
-    /* transition: background-color 0.2s ease-in-out; */
-    /* z-index: 1; */
-  /* } */
-  /* .quarter:hover { */
-    /* background-color: #b3b3b3; */
-  /* } */
-  /* .quarter1 { */
-    /* top: 0; */
-    /* left: 0; */
-    /* background-color: #FBFBFB; */
-    /* border-radius: 100% 0 0 0; */
-    /* rotate: 45deg; */
-  /* } */
-  /* .quarter2 { */
-    /* top: 35%; */
-    /* right: 15%; */
-    /* background-color: #FBFBFB; */
-    /* border-radius: 0 100% 0 0; */
-    /* rotate: 45deg; */
-  /* } */
-  /* .quarter3 { */
-    /* top: 70.1%; */
-    /* right: 50%; */
-    /* background-color: #FBFBFB; */
-    /* border-radius: 0 0 0 100%; */
-    /* rotate: -45deg; */
-  /* } */
-  /* .quarter4 { */
-    /* top: 35%; */
-    /* right: 85.4%; */
-    /* background-color: #FBFBFB; */
-    /* border-radius: 0 0 100% 0; */
-    /* rotate: 135deg; */
-  /* } */
-  /* .cutout { */
-    /* width: 60%; */
-    /* height: 60%; */
-    /* background-color: #DADADC; */
-    /* position: absolute; */
-    /* top: 30%; */
-    /* right: 45%; */
-    /* border-radius: 50%; */
-    /* border: 1px solid #B0B0B0; */
-    /* z-index: 2; */
-  /* } */
+  button {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+   
+  #play-pause-button {
+    border-radius: 50%;
+  }
+
+  #play-pause-btn img {
+    border-radius: 50%;
+  } 
+
+  /* NOW PLAYING STYLING */
+  .now-playing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   /* MEDIA PLAYER STYLING */
   .media-player {
-    /* width: 100%; */
     margin: 0 auto;
   }
   
@@ -235,10 +229,6 @@
     align-items: center;
     border-radius: 50%; 
   }
-
-  #play-pause-button {
-    border-radius: 50%;
-  }
   
   .progress-bar {
     width: 100%;
@@ -258,11 +248,12 @@
     transition: width 0.3s ease;
   }
   
-  /* Footer styling */
+  /* FOOTER STYLING */
   footer {
-    background-color: var(--main-bg-color);
     color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     width: 100%;
   }

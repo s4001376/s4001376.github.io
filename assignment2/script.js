@@ -1,13 +1,14 @@
 const audio = document.querySelector("#custom-audio-player");
 console.log(audio);
 
+// PLAY PAUSE SCRIPING ----
+
 const playPauseBtn = document.querySelector("#play-pause-btn");
 console.log(playPauseBtn);
 
 const playPauseImg = document.querySelector("#play-pause-img");
 console.log(playPauseImg);
 
-// audio.removeAttribute("controls");
 playPauseBtn.addEventListener("click", togglePlayPause);
 
 audio.addEventListener("timeupdate", updateProgressBar);
@@ -22,7 +23,7 @@ function togglePlayPause() {
   }
 }
 
-// VOLUME SCRIPTING
+// VOLUME SCRIPTING ----
 
 const volumeUpBtn = document.querySelector("#volume-up-btn");
 console.log(volumeUpBtn);
@@ -36,15 +37,11 @@ function updateVolume() {
 }
 
 audio.addEventListener("volumechange", updateVolume);
-//event listener is to check the current volume
 
 volumeUpBtn.addEventListener("click", increaseVolume);
 
 volumeDownBtn.addEventListener("click", decreaseVolume);
 
-//both event listeners above are to decrease/increase volume when the button is clicked
-
-//volume values range from 0 to 1 with an increment of 0.1
 function increaseVolume() {
   if (audio.volume < 0.9) {
     audio.volume += 0.1;
@@ -57,7 +54,7 @@ function decreaseVolume() {
   }
 }
 
-// BACKWARD/FORWARD SCRIPTING
+// BACKWARD/FORWARD SCRIPTING ----
 
 const backwardBtn = document.querySelector("#backward-btn");
 console.log(backwardBtn);
@@ -65,7 +62,7 @@ console.log(backwardBtn);
 const forwardBtn = document.querySelector("#forward-btn");
 console.log(forwardBtn);
 
-// PROGRESS BAR SCRIPTING
+// PROGRESS BAR SCRIPTING ----
 
 const progressBar = document.querySelector("#progress-bar-fill");
 console.log(progressBar);
@@ -75,25 +72,26 @@ function updateProgressBar() {
   progressBar.style.width = value + "%";
 }
 
-// STAR POSITION RANDOMISER
+// STAR POSITION RANDOMISER ----
 
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-const STAR_COUNT = 200
+const STAR_COUNT = 300
 let result = ""
 for(let i = 0; i < STAR_COUNT; i++){
-  result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(2, 3)}px ${randomNumber(2, 3)}px #fff,`
+  result += `${randomNumber(-100, 100)}vw ${randomNumber(-100, 100)}vh ${randomNumber(1, 2)}px ${randomNumber(1, 2)}px #fff,`
 }
 console.log(result.substring(0, result.length - 1))
 
 const stars = document.querySelector(".stars");
 console.log(stars);
 
-// TIME DISPLAY SCRIPTING
+// TIME DISPLAY SCRIPTING ----
+
 const displayTime = document.querySelector(".display-time");
-// Time
+
 function showTime() {
   let time = new Date();
   displayTime.innerText = time.toLocaleTimeString("en-US", { hour12: false });
