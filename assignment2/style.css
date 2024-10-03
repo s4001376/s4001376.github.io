@@ -1,7 +1,7 @@
 :root {
     --primary-bg-color: #f4f4f4;
     --text-color: #ffffff;
-    --main-bg-color: #3f3547;
+    --main-bg-color: #8b8b8b;
     --main-text-color: #fff;
     --main-btn-bg-color: #DADADC;
   }
@@ -11,6 +11,7 @@
   ul {
     margin: 0;
     padding: 0;
+    font-size: 20px;
   }
 
   h1 {
@@ -26,7 +27,7 @@
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
   }
   
@@ -43,6 +44,7 @@
     min-height: 100vh;
   }
   
+  /* The font "Afacad Flux" from Google Fonts had a simple and aesthetically pleasing look fit for the title and main headings*/
   
   /* MAIN CONTENT CONTAINER */
   .container {
@@ -57,6 +59,8 @@
   }
 
   /* BACKGROUND ANIMATION STYLING */
+
+  /* Inspired by the track provided in Canvas, I thought it felt like I was in space, floating around in such a calming way, so I decided to base my background styling on space and the galaxy.*/
   .stars {
     z-index: -10;
     position: fixed;
@@ -68,13 +72,10 @@
     border-radius: 50%;
   box-shadow: -19vw -28vh 2px 2px #fff,-56vw 73vh 1px 2px #fff,69vw -100vh 2px 1px #fff,-31vw 56vh 1px 2px #fff,-19vw 62vh 1px 1px #fff,10vw -65vh 1px 2px #fff,19vw -95vh 1px 1px #fff,40vw 32vh 1px 2px #fff,15vw -16vh 2px 1px #fff,-28vw -23vh 1px 2px #fff,-91vw -92vh 2px 1px #fff,-56vw -46vh 1px 1px #fff,-62vw 18vh 1px 2px #fff,-87vw 5vh 2px 2px #fff,-73vw 69vh 1px 1px #fff,79vw 49vh 1px 1px #fff,66vw -12vh 2px 1px #fff,-16vw 57vh 1px 2px #fff,-88vw 70vh 2px 2px #fff,20vw -39vh 1px 1px #fff,13vw 75vh 1px 2px #fff,2vw 26vh 2px 2px #fff,55vw -30vh 2px 1px #fff,49vw -26vh 1px 1px #fff,30vw -62vh 1px 2px #fff,-16vw -74vh 2px 2px #fff,68vw -23vh 1px 1px #fff,67vw 16vh 2px 2px #fff,94vw -87vh 1px 2px #fff,99vw 19vh 1px 1px #fff,-15vw -73vh 1px 1px #fff,62vw -52vh 2px 1px #fff,59vw -87vh 2px 1px #fff,98vw -1vh 1px 2px #fff,94vw -3vh 1px 2px #fff,80vw 89vh 2px 1px #fff,32vw 81vh 1px 2px #fff,-3vw 67vh 2px 2px #fff,100vw -52vh 2px 2px #fff,-82vw 69vh 2px 1px #fff,35vw -41vh 2px 2px #fff,11vw -25vh 1px 1px #fff,74vw -74vh 2px 1px #fff,-100vw -64vh 2px 1px #fff,18vw -37vh 2px 2px #fff,1vw -35vh 2px 1px #fff,-12vw 80vh 2px 1px #fff,-31vw -59vh 1px 1px #fff,-38vw 56vh 1px 1px #fff,-35vw 5vh 2px 2px #fff,-64vw 11vh 1px 2px #fff,-37vw -6vh 1px 1px #fff,-52vw 96vh 2px 2px #fff,48vw -86vh 2px 1px #fff,23vw -72vh 1px 2px #fff,27vw 68vh 2px 2px #fff,-67vw -64vh 2px 2px #fff,38vw 7vh 1px 2px #fff,43vw 70vh 1px 1px #fff,57vw 58vh 2px 2px #fff,47vw 44vh 2px 2px #fff,-69vw -76vh 2px 2px #fff,-34vw 17vh 2px 1px #fff,-98vw 19vh 1px 1px #fff,27vw -12vh 1px 2px #fff,30vw -67vh 1px 1px #fff,36vw 90vh 2px 1px #fff,-100vw 0vh 1px 2px #fff,67vw 63vh 2px 1px #fff,20vw 26vh 2px 1px #fff,94vw -13vh 2px 2px #fff,81vw -65vh 1px 2px #fff,-65vw 19vh 2px 2px #fff,47vw 58vh 1px 1px #fff,-60vw 15vh 2px 2px #fff,-55vw -30vh 1px 1px #fff,-67vw 77vh 1px 1px #fff,89vw -57vh 1px 2px #fff,34vw 78vh 2px 2px #fff,-18vw 5vh 1px 1px #fff,63vw -8vh 1px 1px #fff,-42vw 4vh 2px 2px #fff,27vw -85vh 2px 2px #fff,-91vw 24vh 1px 1px #fff,33vw -47vh 1px 1px #fff,9vw 47vh 2px 2px #fff,-88vw -45vh 1px 1px #fff,53vw -36vh 2px 2px #fff,-100vw -23vh 1px 1px #fff,21vw -96vh 1px 2px #fff,44vw 12vh 1px 2px #fff,88vw -14vh 1px 1px #fff,-25vw 71vh 1px 2px #fff,-87vw 34vh 2px 1px #fff,86vw -6vh 2px 1px #fff,-58vw 84vh 1px 1px #fff,-83vw 3vh 1px 2px #fff,16vw 17vh 2px 2px #fff,55vw -31vh 2px 2px #fff,-74vw 26vh 2px 1px #fff,-86vw -17vh 2px 1px #fff,41vw 53vh 2px 1px #fff,-49vw -79vh 1px 2px #fff,98vw -66vh 1px 1px #fff,94vw -9vh 2px 1px #fff,-37vw 44vh 2px 1px #fff,43vw 50vh 1px 1px #fff,-37vw -52vh 2px 2px #fff,-75vw 81vh 1px 1px #fff,9vw 90vh 1px 2px #fff,63vw -58vh 2px 2px #fff,76vw -67vh 1px 1px #fff,-57vw -49vh 1px 1px #fff,66vw 10vh 1px 1px #fff,67vw 36vh 1px 2px #fff,-45vw -97vh 1px 1px #fff,10vw 80vh 1px 2px #fff,-53vw -15vh 2px 2px #fff,-21vw 2vh 2px 1px #fff,-76vw 23vh 2px 1px #fff,96vw 11vh 1px 2px #fff,51vw -54vh 2px 2px #fff,-12vw 28vh 2px 2px #fff,-78vw 20vh 1px 2px #fff,16vw -89vh 2px 1px #fff,19vw 20vh 1px 1px #fff,-5vw 52vh 2px 2px #fff,88vw 42vh 2px 1px #fff,34vw 32vh 2px 2px #fff,-69vw 57vh 2px 1px #fff,74vw -66vh 1px 1px #fff,-78vw -58vh 1px 1px #fff,61vw 84vh 2px 2px #fff,-14vw 53vh 1px 2px #fff,73vw -42vh 2px 1px #fff,-79vw -62vh 1px 1px #fff,-10vw 96vh 2px 1px #fff,49vw -14vh 2px 1px #fff,-57vw 94vh 2px 2px #fff,-7vw 42vh 1px 1px #fff,-88vw 79vh 1px 1px #fff,-95vw -92vh 1px 1px #fff,97vw -52vh 1px 1px #fff,-57vw 7vh 1px 1px #fff,-22vw 66vh 1px 1px #fff,-63vw 99vh 2px 2px #fff,26vw 2vh 2px 1px #fff,-90vw -66vh 1px 1px #fff,7vw -60vh 1px 2px #fff,-90vw 64vh 1px 1px #fff,-7vw 42vh 1px 1px #fff,-73vw 56vh 2px 2px #fff,-20vw 25vh 2px 2px #fff,72vw -28vh 1px 2px #fff,-17vw -21vh 2px 2px #fff,70vw -8vh 1px 1px #fff,-38vw 0vh 1px 1px #fff,58vw -28vh 1px 1px #fff,-64vw 83vh 2px 1px #fff,-5vw 3vh 1px 2px #fff,87vw 50vh 1px 1px #fff,-26vw -60vh 2px 1px #fff,16vw -41vh 2px 2px #fff,-56vw 64vh 1px 2px #fff,29vw -57vh 1px 1px #fff,32vw -10vh 2px 2px #fff,-27vw 32vh 2px 2px #fff,-18vw -22vh 2px 2px #fff,83vw -53vh 2px 1px #fff,99vw 29vh 1px 1px #fff,-4vw 27vh 2px 2px #fff,-64vw 94vh 1px 1px #fff,-54vw -83vh 1px 1px #fff,-15vw -2vh 1px 1px #fff,52vw 54vh 1px 1px #fff,57vw -3vh 1px 2px #fff,49vw 50vh 1px 2px #fff,52vw 46vh 1px 1px #fff,-10vw -27vh 1px 2px #fff,-69vw 92vh 2px 1px #fff,-79vw -88vh 2px 1px #fff,0vw -14vh 1px 2px #fff,-14vw 0vh 2px 2px #fff,79vw 33vh 1px 2px #fff,-32vw -48vh 1px 1px #fff,0vw 36vh 1px 1px #fff,-17vw -63vh 2px 2px #fff,-4vw 52vh 2px 1px #fff,-8vw -57vh 1px 2px #fff,33vw -54vh 2px 1px #fff,93vw -97vh 2px 1px #fff,30vw -100vh 2px 2px #fff,-71vw 55vh 1px 1px #fff,-43vw -88vh 1px 1px #fff,-53vw -61vh 1px 1px #fff,82vw -22vh 1px 2px #fff,59vw 92vh 1px 1px #fff,54vw -1vh 1px 2px #fff,12vw -59vh 2px 2px #fff,-45vw -3vh 1px 2px #fff,-26vw -12vh 1px 2px #fff,-61vw 79vh 1px 2px #fff,-8vw 40vh 2px 2px #fff,19vw -20vh 2px 2px #fff,-16vw 77vh 1px 1px #fff,41vw 93vh 1px 2px #fff,61vw -7vh 2px 2px #fff,-11vw 27vh 1px 2px #fff,27vw 21vh 1px 1px #fff,-100vw -8vh 1px 2px #fff,13vw 80vh 2px 1px #fff,-97vw -74vh 1px 1px #fff,11vw 23vh 2px 2px #fff,15vw -84vh 2px 1px #fff,41vw 13vh 1px 1px #fff,5vw -72vh 1px 2px #fff,-1vw 61vh 2px 1px #fff,99vw 13vh 2px 2px #fff,63vw -69vh 1px 1px #fff,85vw 23vh 1px 2px #fff,11vw -50vh 1px 2px #fff,-81vw 73vh 2px 1px #fff,2vw 81vh 1px 2px #fff,-41vw 55vh 2px 2px #fff,96vw 73vh 1px 2px #fff,90vw -44vh 2px 1px #fff,85vw 23vh 2px 1px #fff,75vw -94vh 2px 1px #fff,-18vw -62vh 1px 1px #fff,15vw 12vh 1px 1px #fff,73vw -50vh 2px 1px #fff,-72vw 43vh 1px 1px #fff,-93vw -76vh 1px 1px #fff,99vw 46vh 1px 2px #fff,-1vw 40vh 2px 1px #fff,-72vw 32vh 1px 1px #fff,82vw 3vh 2px 1px #fff,95vw -87vh 1px 2px #fff,-36vw -25vh 2px 2px #fff,27vw -53vh 2px 2px #fff,-77vw 69vh 1px 1px #fff,-82vw -22vh 1px 2px #fff,54vw -15vh 1px 1px #fff,-22vw 30vh 2px 1px #fff,-30vw 19vh 2px 1px #fff,99vw -33vh 2px 2px #fff,-60vw 74vh 2px 1px #fff,-72vw -76vh 1px 2px #fff,99vw 8vh 1px 2px #fff,-39vw -40vh 2px 1px #fff,-98vw 78vh 1px 2px #fff,-54vw -12vh 2px 2px #fff,94vw -28vh 2px 2px #fff,35vw -58vh 2px 2px #fff,9vw -21vh 1px 2px #fff,-1vw 15vh 2px 2px #fff,86vw -94vh 1px 1px #fff,59vw 2vh 1px 2px #fff,-8vw 9vh 1px 2px #fff,-58vw -4vh 1px 2px #fff,10vw 48vh 2px 2px #fff,-84vw -58vh 2px 2px #fff,-34vw -98vh 1px 2px #fff,15vw -5vh 2px 1px #fff,-51vw 54vh 1px 1px #fff,-10vw 20vh 1px 1px #fff,-67vw -38vh 2px 2px #fff,-53vw -14vh 2px 2px #fff,-79vw -74vh 2px 2px #fff,68vw 22vh 1px 1px #fff,49vw 43vh 1px 2px #fff,1vw -58vh 1px 1px #fff,3vw -1vh 1px 1px #fff,50vw 71vh 2px 2px #fff,-34vw -20vh 1px 2px #fff,-75vw 80vh 2px 2px #fff,-39vw 88vh 2px 2px #fff,-50vw 45vh 1px 1px #fff,36vw 99vh 1px 2px #fff,93vw 32vh 2px 1px #fff,44vw -73vh 1px 1px #fff,-58vw 47vh 2px 1px #fff,65vw -82vh 2px 2px #fff,-82vw -35vh 1px 1px #fff,-98vw -29vh 1px 1px #fff,-13vw 72vh 2px 1px #fff,-93vw 70vh 1px 1px #fff,-28vw -18vh 2px 1px #fff,97vw -51vh 1px 1px #fff,20vw -27vh 2px 1px #fff,60vw 78vh 2px 2px #fff,24vw 8vh 1px 2px #fff,42vw -55vh 1px 1px #fff,34vw 35vh 1px 1px #fff,-67vw -19vh 2px 2px #fff,-54vw 38vh 2px 2px #fff,28vw 67vh 2px 1px #fff,9vw 98vh 1px 2px #fff,12vw 32vh 1px 2px #fff,-41vw 62vh 2px 1px #fff;
   
-  /* stars coordinates and settings from the script in script.js where it randomises position and scale of stars found in the console when html is inspected */
+  /* stars coordinates and settings from the script in script.js where it randomises position and scale of stars found in the console when html is inspected.*/
 
     animation: star-wheel 200s linear infinite;
-    /* animation-name: star-wheel; */
-    /* animation-duration: 60s; */
-    /* animation-timing-function: linear; */
-  }
+  } 
 
   @keyframes star-wheel {
     0% {
@@ -84,6 +85,8 @@
       rotate: 360deg;
     }
   }
+
+   /* To simulate the user is floating in space, I animated the box shadow of stars to slowly rotate timelessly so that its not fast enough for the user to get dizzy and potentially distracted*/
   
   /* HEADER STYLING */
   header {
@@ -115,6 +118,8 @@
     }
   }
 
+  /* This gravity animation was intended to make the title look like its bouncing up and down a bit to simulate space's lack of gravity. Originally I was going to do this for all the elements of the webpage, however I found it too distracting and weird for everything (including the controls) to move around. So just animating the title was fitting to support the setting of space */
+
   /* TIME DISPLAY STYLING */
   .display-container {
     display: flex;
@@ -133,6 +138,9 @@
   }
 
   /* IPOD SHUFFLE STYLING */
+
+/* I referenced an image of a grey ipod shuffle and colour-dropped using the google extension 'ColorZilla' to get and use the shuffle's authentic colours that could also simulate nostalgia for the user (if they had one). I chose the grey variation because it fits the space theme the best since its grey - looks like space equipment  */
+
   .ipod-shuffle-box {
     border: 2px solid rgba(146, 146, 146, 0.438);
     border-radius: 30px;
@@ -194,11 +202,18 @@
   } 
 
   /* NOW PLAYING STYLING */
-  .now-playing {
+  .audio-titles {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  #audio-name {
+    font-weight: lighter;
+    font-family: "Afacad Flux", sans-serif;
+    font-style: italic;
   }
 
   /* MEDIA PLAYER STYLING */
@@ -230,7 +245,7 @@
     align-items: center;
     border-radius: 50%; 
   }
-  
+
   .progress-bar {
     width: 100%;
     height: 15px;
@@ -249,12 +264,6 @@
     transition: width 0.3s ease;
   }
 
-  #audio-name {
-    font-weight: lighter;
-    font-family: "Afacad Flux", sans-serif;
-    font-style: italic;
-  }
-  
   /* FOOTER STYLING */
   footer {
     color: var(--main-text-color);
