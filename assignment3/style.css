@@ -1,0 +1,10 @@
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header {
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
