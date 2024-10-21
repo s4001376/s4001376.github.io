@@ -31,21 +31,24 @@ body {
 
 header {
   display: flex;
-  padding: 5px 0;
+  justify-content: center;
+  margin-top: 5px;
   text-align: center;
   width: 100%;
+  gap: 1rem;
+  text-shadow: 5px 5px grey;
 }
 
 /* GRID STYLING */
 
 .animal-grid {
-  border: 2px dashed rgb(137, 130, 119);
-  margin: 50px;
+  /* border: 2px dashed rgb(137, 130, 119); */
+  margin: 80px;
   width: auto;
   min-height: 600px;
-  padding: 20px;
+  padding: 0px;
   display: grid;
-  gap: 4rem;
+  gap: 3rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat (3, 1fr);
   align-items: center;
@@ -61,7 +64,7 @@ header {
   
 button {
     cursor: pointer;
-    border: dashed;
+    border: solid rgb(105, 98, 87);
     border-radius: 2rem;
     background-color: rgb(173, 165, 153);
     overflow: hidden;
@@ -90,7 +93,7 @@ button {
     padding-left: 20px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(105, 98, 87);
     border-radius: 1rem;
     background: rgb(137, 130, 119);
   }
@@ -110,7 +113,7 @@ button {
     padding-left: 20px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(105, 98, 87);
     border-radius: 1rem;
     background: rgb(137, 130, 119);
   }
@@ -126,16 +129,76 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.6rem;
     padding-left: 20px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    border: 2px solid black;
+    padding-bottom: 5px;
+    border: 2px solid rgb(105, 98, 87);
     border-radius: 1rem;
     background: rgb(137, 130, 119);
   }
 
-/* IMG STYLING */
+  #pesto-drawer {
+  position: fixed;
+  margin-top: 60px;
+  right: -600px;
+  width: 600px;
+  min-height: 80vh;
+  transition: translate 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid rgb(105, 98, 87);
+  border-radius: 1rem;
+  background: rgb(137, 130, 119);
+  }
+
+  #biscuits-drawer {
+    position: fixed;
+    margin-top: 60px;
+    right: -600px;
+    width: 600px;
+    min-height: 80vh;
+    transition: translate 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+     padding-right: 20px;
+     padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(105, 98, 87);
+    border-radius: 1rem;
+    background: rgb(137, 130, 119);
+    }
+
+    #jabulani-drawer {
+      position: fixed;
+      margin-top: 60px;
+      right: -600px;
+      width: 600px;
+      min-height: 80vh;
+      transition: translate 0.5s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+       padding-right: 20px;
+       padding-left: 10px;
+      padding-bottom: 10px;
+      border: 2px solid rgb(105, 98, 87);
+      border-radius: 1rem;
+      background: rgb(137, 130, 119);
+      }
+
+/* IMAGE STYLING */
 
 #moodeng {
   scale: 2.2;
@@ -147,6 +210,68 @@ button {
 
 #huahua {
   scale:1.8;
+}
+
+#pesto {
+  scale: 2.2;
+}
+
+#biscuits {
+  scale: 2.2;
+}
+
+#jabulani {
+  scale: 2.2;
+}
+
+#pawLeft {
+  animation: leftPaws 10s linear infinite;
+}
+
+#pawRight {
+  animation: rightPaws 10s linear infinite;
+}
+
+@keyframes leftPaws {
+  0% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: 20deg;   
+  }
+  40% {
+    rotate: -20deg;   
+  }
+  60% {
+    rotate: 20deg;   
+  }
+  80% {
+    rotate: -20deg;    
+  }
+  100% {
+    rotate: 0deg;    
+  }
+}
+
+@keyframes rightPaws {
+  0% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: -20deg;   
+  }
+  40% {
+    rotate: 20deg;   
+  }
+  60% {
+    rotate: -20deg;   
+  }
+  80% {
+    rotate: 20deg;    
+  }
+  100% {
+    rotate: 0deg;    
+  }
 }
 
 /* FONT INPUTS */
