@@ -50,23 +50,23 @@ function openADrawer() {
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
     
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     } else {
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
@@ -83,23 +83,23 @@ function openBDrawer() {
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     } else {
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
@@ -116,23 +116,23 @@ function openCDrawer() {
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     } else {
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
