@@ -1,5 +1,7 @@
+/* I chose the fonts 'Chewy' and 'Dekko' because their rounded and bubbly style matched the cute but minimalist aesthetic I want to achieve. This webpage is about animals that went viral mainly due to their cuteness, thus I thought it was appropriate to follow the trend */
+
 h1 {
-    font-family: 'Chewy';
+    font-family: 'Chewy', 'sans-serif';
     font-size: 3rem;
     color: aliceblue;
 }
@@ -13,7 +15,7 @@ h2 {
 
 p {
   color: aliceblue;
-  font-family: "Dekko";
+  font-family: "Dekko", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -28,6 +30,7 @@ body {
 }
 
 /* HEADER STYLING */
+/* As mentioned, I wanted to header to be an invitation for users to interact with the webpage, thus I made it large in size, applied white font colour with a dark shadow to make it easy to read and stand out, and also added two animated illustrations of paw prints to set a fun tone. */
 
 header {
   display: flex;
@@ -40,7 +43,58 @@ header {
   text-shadow: 5px 5px grey;
 }
 
+#pawLeft {
+  animation: leftPaws 10s linear infinite;
+}
+
+#pawRight {
+  animation: rightPaws 10s linear infinite;
+}
+
+@keyframes leftPaws {
+  0% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: 20deg;   
+  }
+  40% {
+    rotate: -20deg;   
+  }
+  60% {
+    rotate: 20deg;   
+  }
+  80% {
+    rotate: -20deg;    
+  }
+  100% {
+    rotate: 0deg;    
+  }
+}
+
+@keyframes rightPaws {
+  0% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: -20deg;   
+  }
+  40% {
+    rotate: 20deg;   
+  }
+  60% {
+    rotate: -20deg;   
+  }
+  80% {
+    rotate: 20deg;    
+  }
+  100% {
+    rotate: 0deg;    
+  }
+}
+
 /* GRID STYLING */
+/* As it is somewhat a control panel, I thought it was appropriate to use the grid display. */
 
 .animal-grid {
   margin: 50px;
@@ -61,6 +115,7 @@ header {
 }
 
 /* BUTTON STYLING */
+/* The buttons themselves have to be a bit obvious that they can be clicked and look inviting to interacte with while sticking to the minimalist style. For user interactivity and information, I have made it so that when the user hovers their mouse over an icon, it will scale up and the background changes to also indicate this. And when the user clicks on the icon it will slightly scale down to imitate a button being pushed down. These small animations of scaling provides a smooth user expierence. The border of the icons are thick to make the buttons not look flat and part of the plain background */
   
 button {
     cursor: pointer;
@@ -81,6 +136,7 @@ button {
   }
 
   /* DRAWER STYLING */
+  /* Each drawer has the same attributes where it has a full body image of the animal, their name is the heading, three facts listed side-by-side and a paragraph of their species. This layout makes it quicker and easier for the user to read without losing their attention. THe background is dark to differenciate drawer from the background as its a seperate element that is added if the user clicks on the button. Its also aesthetically pleasing to look at with the white writing against the dark background. However to make the text more visible for greater accessibility, I've added a darker shadow to make the white text pop. */
 
   #moodeng-drawer {
     position: fixed;
@@ -203,6 +259,7 @@ button {
       text-shadow: 2px 2px rgb(105, 98, 87);
       }
 
+    /* I used a grid display as I was able to evenly distribute the spacing of each text box better than a flex (which I had trouble with) */
     .infolist {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -211,6 +268,8 @@ button {
       gap: 5px;
       padding: 10px;
     }
+
+    /* The infobox is a lighter colour than the drawer to direct some attention to its contents as it contains information that raises awareness about the species */
 
     .infobox {
       padding: 10px;
@@ -261,55 +320,6 @@ button {
   scale: 2;
 }
 
-#pawLeft {
-  animation: leftPaws 10s linear infinite;
-}
-
-#pawRight {
-  animation: rightPaws 10s linear infinite;
-}
-
-@keyframes leftPaws {
-  0% {
-    rotate: 0deg;
-  }
-  20% {
-    rotate: 20deg;   
-  }
-  40% {
-    rotate: -20deg;   
-  }
-  60% {
-    rotate: 20deg;   
-  }
-  80% {
-    rotate: -20deg;    
-  }
-  100% {
-    rotate: 0deg;    
-  }
-}
-
-@keyframes rightPaws {
-  0% {
-    rotate: 0deg;
-  }
-  20% {
-    rotate: -20deg;   
-  }
-  40% {
-    rotate: 20deg;   
-  }
-  60% {
-    rotate: -20deg;   
-  }
-  80% {
-    rotate: 20deg;    
-  }
-  100% {
-    rotate: 0deg;    
-  }
-}
 
 /* FONT INPUTS */
 
@@ -325,19 +335,3 @@ button {
     font-style: normal;
   }
   
-
-  /* #btn2 { */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* position: relative; */
-    /* width: 165px; */
-    /* height: 165px; */
-  /* } */
-
-  /* #pesto { */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* position: absolute; */
-    /* top: 0; */
-  /* } */

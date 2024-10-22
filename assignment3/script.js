@@ -1,3 +1,5 @@
+// To be honest the code below may not be the most efficient way to execute my intended actions for the drawers, however with a lot of trial and error this was the best I could think of with my current knowledge of scripting.
+
 const btn1 = document.querySelector("#btn1");
 console.log(btn1);
 const moodengDrawer = document.querySelector("#moodeng-drawer");
@@ -41,36 +43,31 @@ btn4.addEventListener("click", openDDrawer);
 btn5.addEventListener("click", openEDrawer);
 btn6.addEventListener("click", openFDrawer);
 
+// in the 'if (!isOpen#)' brackets, there are inputs from each drawers as this prevents more than one drawer to be opened for a cleaner UI/UX. It also allows the user to focus on one information slide at a time to not only fully take in the information given to them by one drawer, but to also not overwhelm the screen with information. Furthermore, opening one drawer at a time engages the user to want to look at the other animals for longer interactivity
+
 function openADrawer() {
     console.log("i am clicked");
     if (!isOpen) {
       moodengDrawer.style.translate = "610px";
       isOpen = true;
-      // btn1.style.scale = "1.2";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
     
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     } else {
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
     }
   }
 
@@ -79,31 +76,24 @@ function openBDrawer() {
     if (!isOpen2) {
       pestoDrawer.style.translate = "-610px";
       isOpen2 = true;
-      // btn2.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     } else {
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
     }
   }
 
@@ -112,31 +102,24 @@ function openCDrawer() {
     if (!isOpen3) {
       moleDrawer.style.translate = "610px";
       isOpen3 = true;
-      // btn3.style.scale = "1.2";
-
+      
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     } else {
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
     }
 }
 
@@ -145,31 +128,24 @@ function openDDrawer() {
     if (!isOpen4) {
       biscuitsDrawer.style.translate = "-610px";
       isOpen4 = true;
-      // btn4.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     } else {
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
     }
   }
 
@@ -178,31 +154,24 @@ function openDDrawer() {
     if (!isOpen5) {
       huahuaDrawer.style.translate = "610px";
       isOpen5 = true;
-      // btn5.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     } else {
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
     }
 }
 
@@ -211,30 +180,23 @@ function openFDrawer() {
     if (!isOpen6) {
       jabulaniDrawer.style.translate = "-610px";
       isOpen6 = true;
-      // btn6.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      // btn5.style.scale = "1";
     } else {
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      // btn6.style.scale = "1";
     }
   }
