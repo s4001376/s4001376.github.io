@@ -44,9 +44,9 @@ btn6.addEventListener("click", openFDrawer);
 function openADrawer() {
     console.log("i am clicked");
     if (!isOpen) {
-      moodengDrawer.style.translate = "590px";
+      moodengDrawer.style.translate = "610px";
       isOpen = true;
-      btn1.style.scale = "1.2";
+      // btn1.style.scale = "1.2";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
@@ -70,16 +70,16 @@ function openADrawer() {
     } else {
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
     }
   }
 
 function openBDrawer() {
     console.log("i am clicked");
     if (!isOpen2) {
-      pestoDrawer.style.translate = "-590px";
+      pestoDrawer.style.translate = "-610px";
       isOpen2 = true;
-      btn2.style.scale = "1.2";
+      // btn2.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
@@ -103,16 +103,16 @@ function openBDrawer() {
     } else {
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
     }
   }
 
 function openCDrawer() {
     console.log("i am clicked");
     if (!isOpen3) {
-      moleDrawer.style.translate = "590px";
+      moleDrawer.style.translate = "610px";
       isOpen3 = true;
-      btn3.style.scale = "1.2";
+      // btn3.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
@@ -136,105 +136,105 @@ function openCDrawer() {
     } else {
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
     }
 }
 
 function openDDrawer() {
     console.log("i am clicked");
     if (!isOpen4) {
-      biscuitsDrawer.style.translate = "-590px";
+      biscuitsDrawer.style.translate = "-610px";
       isOpen4 = true;
-      btn4.style.scale = "1.2";
+      // btn4.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     } else {
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
     }
   }
 
   function openEDrawer() {
     console.log("i am clicked");
     if (!isOpen5) {
-      huahuaDrawer.style.translate = "590px";
+      huahuaDrawer.style.translate = "610px";
       isOpen5 = true;
-      btn5.style.scale = "1.2";
+      // btn5.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
 
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     } else {
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
     }
 }
 
 function openFDrawer() {
     console.log("i am clicked");
     if (!isOpen6) {
-      jabulaniDrawer.style.translate = "-590px";
+      jabulaniDrawer.style.translate = "-610px";
       isOpen6 = true;
-      btn6.style.scale = "1.2";
+      // btn6.style.scale = "1.2";
 
       moodengDrawer.style.translate = "-600px";
       isOpen = false;
-      btn1.style.scale = "1";
+      // btn1.style.scale = "1";
 
       pestoDrawer.style.translate = "600px";
       isOpen2 = false;
-      btn2.style.scale = "1";
+      // btn2.style.scale = "1";
 
       moleDrawer.style.translate = "-600px";
       isOpen3 = false;
-      btn3.style.scale = "1";
+      // btn3.style.scale = "1";
 
       biscuitsDrawer.style.translate = "600px";
       isOpen4 = false;
-      btn4.style.scale = "1";
+      // btn4.style.scale = "1";
 
       huahuaDrawer.style.translate = "-600px";
       isOpen5 = false;
-      btn5.style.scale = "1";
+      // btn5.style.scale = "1";
     } else {
       jabulaniDrawer.style.translate = "600px";
       isOpen6 = false;
-      btn6.style.scale = "1";
+      // btn6.style.scale = "1";
     }
   }
