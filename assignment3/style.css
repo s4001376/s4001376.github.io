@@ -33,9 +33,10 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  margin-bottom: 10px;
   text-align: center;
   width: 100%;
-  gap: 1rem;
+  gap: .5rem;
   text-shadow: 5px 5px grey;
 }
 
@@ -45,7 +46,7 @@ header {
   margin: 50px;
   width: auto;
   min-height: 600px;
-  padding: 0px;
+  padding: 10px;
   display: grid;
   gap: 3rem;
   grid-template-columns: 1fr 1fr;
@@ -63,7 +64,7 @@ header {
   
 button {
     cursor: pointer;
-    border: solid rgba(105, 98, 87, 0.484);
+    border: 6px solid rgba(105, 98, 87, 0.76);
     border-radius: 2rem;
     background-color: rgb(173, 165, 153);
     overflow: hidden;
@@ -86,7 +87,7 @@ button {
     margin-top: 60px;
     left: -600px;
     width: 600px;
-    min-height: 80vh;
+    min-height: 70vh;
     transition: translate 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@ button {
     margin-top: 60px;
     left: -600px;
     width: 600px;
-    min-height: 80vh;
+    min-height: 70vh;
     transition: translate 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -127,14 +128,15 @@ button {
     margin-top: 60px;
     left: -600px;
     width: 600px;
-    min-height: 80vh;
+    min-height: 70vh;
     transition: translate 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 30px;
+    padding: 60px 25px 25px 25px;
+    text-align: center;
     border: 2px solid rgb(105, 98, 87);
     border-radius: 1rem;
     background: rgb(137, 130, 119);
@@ -146,7 +148,7 @@ button {
   margin-top: 60px;
   right: -600px;
   width: 600px;
-  min-height: 80vh;
+  min-height: 70vh;
   transition: translate 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -166,15 +168,15 @@ button {
     margin-top: 60px;
     right: -600px;
     width: 600px;
-    min-height: 80vh;
+    min-height: 70vh;
     transition: translate 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* padding: 30px; */
     padding: 60px 25px 25px 25px;
+    text-align: center;
     border: 2px solid rgb(105, 98, 87);
     border-radius: 1rem;
     background: rgb(137, 130, 119);
@@ -186,15 +188,16 @@ button {
       margin-top: 60px;
       right: -600px;
       width: 600px;
-      min-height: 80vh;
+      min-height: 70vh;
       transition: translate 0.5s ease-in-out;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 1rem;
-      padding: 30px;
+      padding: 60px 25px 25px 25px;
       border: 2px solid rgb(105, 98, 87);
+      text-align: center;
       border-radius: 1rem;
       background: rgb(137, 130, 119);
       text-shadow: 2px 2px rgb(105, 98, 87);
@@ -255,7 +258,7 @@ button {
 }
 
 #jabulani {
-  scale: 2.2;
+  scale: 2;
 }
 
 #pawLeft {
