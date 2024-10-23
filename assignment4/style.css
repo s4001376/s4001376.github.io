@@ -1,0 +1,99 @@
+body {
+    background-image: url('Greenhouse.png');
+    background-size: 2000px 1300px;
+}
+
+h1 {
+    font-family: "Tillana", system-ui;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 3px 2px white;
+}
+
+/* HEADER STYLING */
+
+header{
+    padding: 5px;
+    text-align: center;
+    width: 100%;    
+    border: 1px dashed white;
+}
+
+/* CONTAINER STYLING */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SHELVING STYLING */
+
+#top-shelf {
+    border: 1px dashed white;
+    padding: 40px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* POT STYLING */
+
+#top-pots {
+    border: 1px dashed white;
+    padding: 20px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7rem;
+}
+
+/* BUTTON STYLING */
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    overflow: hidden;
+    border: 1px dashed white
+}
+
+/* IMAGE STYLING */
+
+
+
+/* FONT INPUTS */
+
+.tillana-regular {
+    font-family: "Tillana", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tillana-medium {
+    font-family: "Tillana", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tillana-semibold {
+    font-family: "Tillana", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .tillana-bold {
+    font-family: "Tillana", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tillana-extrabold {
+    font-family: "Tillana", system-ui;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
