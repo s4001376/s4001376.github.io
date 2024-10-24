@@ -1,10 +1,11 @@
 body {
     background-image: url('Greenhouse.png');
     background-size: 2000px 1300px;
+    min-height: 100vh;
 }
 
 h1 {
-    color: rgb(163, 165, 163);
+    color: #94C8D1;
     font-family: "Tillana", system-ui;
     font-weight: bold;
     font-size: 5rem;
@@ -76,6 +77,11 @@ button {
     overflow: hidden;
     /* border: 1px dashed white */
 }
+
+ button:hover {
+    background-image: url(radial.png);
+    background-size: 300px 300px;
+ }
 
 /* IMAGE STYLING */
 
