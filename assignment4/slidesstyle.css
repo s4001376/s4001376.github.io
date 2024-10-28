@@ -27,8 +27,8 @@ body {
   
   .navigation {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 2px;
+    /* right: 20px; */
     display: flex;
     justify-content: flex-end;
     gap: 1.2rem;
@@ -61,19 +61,67 @@ body {
     justify-content: space-between;
   }
 
-  #slide1 {
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+  }
+
+  /* SLIDE STYLING */
+
+  #shadow1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(Shadow_S1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #shadow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Shadow_S2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #shadow3 {
+    display: flex;
+    justify-content: center;
+    background-image: url(Shadow_S3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+  }
+
+  #shadow4 {
+    display: flex;
+    justify-content: center;
+    background-image: url(Shadow_S4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+  }
+
+  #shadow5 {
+    display: flex;
+    justify-content: center;
+    background-image: url(Shadow_S5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
   }
   
   .slides {
-    border: 2px dashed #e5e5cb7a;
+    /* border: 2px dashed #e5e5cb7a; */
     font-size: 2rem;
     height: 100vh;
     width: 100vw;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
