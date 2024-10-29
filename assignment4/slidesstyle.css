@@ -181,6 +181,128 @@ body {
     background-repeat: no-repeat;
   }
 
+  #catndog1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Catndog_S1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #catndog2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Catndog_S2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+    
+  #catndog3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Catndog_S3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #catndog4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Possible_S4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #catndog5 {
+    display: flex;
+    justify-content: center;
+    background-image: url(Catndog_S5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #temphap1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #temphap2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+    
+  #temphap3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #temphap4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #temphap5 {
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #migraine1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #migraine2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+    
+  #migraine3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #migraine4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #migraine5 {
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
   .slides {
     font-size: 2rem;
     height: 100vh;
