@@ -1,34 +1,16 @@
 body {
-    background-color: #1a120b;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #e5e5cb;
-    /* color: #3c2a21; */
-    font-size: 1rem;
     scroll-behavior: smooth;
     overflow: hidden;
   }
   
-  /* nav ul { */
-    /* list-style: none; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 2rem; */
-    /* padding: 0; */
-    /* margin: 0; */
-  /* } */
-  
   .navigation {
     position: fixed;
     bottom: 2px;
-    /* right: 20px; */
     display: flex;
     justify-content: flex-end;
     gap: 1.2rem;
@@ -55,7 +37,6 @@ body {
   
   main {
     display: flex;
-    /* flex-direction: column; */
     gap: 1rem;
     margin: auto;
     justify-content: space-between;
@@ -70,6 +51,7 @@ body {
     border: 5px solid black;
     border-radius: 5px;
   }
+
 
   /* SLIDE STYLING */
 
@@ -114,7 +96,50 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;   
   }
+
+  #inevitable1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Inevitable_S1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #inevitable2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Inevitable_S2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
   
+  #inevitable3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Inevitable_S3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #inevitable4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Inevitable_S4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #inevitable5 {
+    display: flex;
+    justify-content: center;
+    background-image: url(Inevitable_S5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
   .slides {
     /* border: 2px dashed #e5e5cb7a; */
     font-size: 2rem;
