@@ -210,7 +210,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(Possible_S4.png);
+    background-image: url(Catndog_S4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -226,7 +226,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Temphap_S1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -234,7 +234,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Temphap_S2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -243,7 +243,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Temphap_S3.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -251,14 +251,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Temphap_S4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   #temphap5 {
     display: flex;
     justify-content: center;
-    background-image: url();
+    background-image: url(Temphap_S5.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -267,7 +267,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Migraine_S1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -275,7 +275,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Migraine_S2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -284,7 +284,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Migraine_S3.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -292,14 +292,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    background-image: url(Migraine_S4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   #migraine5 {
     display: flex;
     justify-content: center;
-    background-image: url();
+    background-image: url(Migraine_S5.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
